@@ -1,0 +1,51 @@
+h1{
+    font-size:50px;
+    user-select:none;
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+}
+
+a{
+    display:inline-block;
+    background-color:white;
+    color:black;
+    font-size:15px;
+    padding:7px;
+    margin-top:10px;
+    border: black solid 1px;
+    border-radius:5px;
+    text-decoration:none;
+    transition:background-color 250ms, color 250ms, border-color 250ms;
+    user-select:none;
+}
+
+a:hover, button:hover{
+    background-color:black;
+    color: white;
+    border-color:white
+}
+
+.words{
+    display:block;
+    margin-bottom:25px;
+}
+
+form{
+    font-style:italic;
+    font-weight:bold;
+    user-select:none;
+}
+
+button{
+    background-color:white;
+    color:black;
+    font-size:15px;
+    padding:7px;
+    margin-top:10px;
+    border: black solid 1px;
+    border-radius:5px;
+    font-family:'Times New Roman', Times, serif;
+    transition:background-color 250ms, color 250ms, border-color 250ms;
+}
